@@ -32,11 +32,11 @@ const router = createBrowserRouter([
           element: <SignUp></SignUp>,
       },
       {
-          path: "patient",
+          path: "/patient",
           element: <DashBoardPatient></DashBoardPatient>,
       },
       {
-          path: "doctor",
+          path: "/doctor",
           element: <DashBoardDoctor></DashBoardDoctor>
       },
     ]
