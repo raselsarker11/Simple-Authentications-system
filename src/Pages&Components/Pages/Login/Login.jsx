@@ -1,5 +1,5 @@
 import loginImg from '../../../assets/others/authentication2.png';
-import backgroundImage from '../../../assets/others/authentication.png';
+import backgroundImage from "../../../assets/images/bg.png";
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
