@@ -69,7 +69,7 @@ const SignUp = () => {
                 setPincode('');
                 setUser_type('');
                 setError('');
-                window.location.href = 'https://simple-authentications-system.vercel.app/login';
+                window.location.href = '/login';
             } else {
                 setError(response.data?.message || 'Registration failed. Please try again.');
             }
