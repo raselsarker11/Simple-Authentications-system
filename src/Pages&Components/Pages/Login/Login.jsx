@@ -27,9 +27,9 @@ const Login = () => {
             const { access, user_type } = response.data;
             localStorage.setItem('access', access);
             if (user_type === 'doctor') {
-                navigate('/doctor');
+                navigate('https://simple-authentications-system.vercel.app/doctor');
             } else if (user_type === 'patient') {
-                navigate('/patient');
+                navigate('https://simple-authentications-system.vercel.app/patient');
             }
         } catch (error) {
             console.error('There was an error logging in!', error);
