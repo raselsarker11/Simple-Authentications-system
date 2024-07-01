@@ -23,7 +23,7 @@ const Login = () => {
         e.preventDefault();
 
         try {
-            const response = await axios.post('http://127.0.0.1:8000/api/account/login/', formData);
+            const response = await axios.post('https://simple-authentications-backend.onrender.com/api/account/login/', formData);
             const { access, user_type } = response.data;
             localStorage.setItem('access', access);
             if (user_type === 'doctor') {

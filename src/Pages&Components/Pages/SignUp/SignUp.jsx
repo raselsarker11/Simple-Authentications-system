@@ -48,7 +48,7 @@ const SignUp = () => {
 
         try {
             console.log('Payload being sent:', formData);
-            const response = await axios.post('http://127.0.0.1:8000/api/account/register/', formData, {
+            const response = await axios.post('https://simple-authentications-backend.onrender.com/api/account/register/', formData, {
                 headers: { 'Content-Type': 'multipart/form-data' }
             });
 
