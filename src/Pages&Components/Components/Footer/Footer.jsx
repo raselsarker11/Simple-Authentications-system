@@ -72,7 +72,7 @@ const Footer = () => {
                 </span>
                 <div className="flex items-center mt-1 space-x-3">
                     <a
-                    href="https://www.facebook.com/mdrasel.sarker.7773631"
+                    href="/"
                     className="text-[#82CB15] transition-colors duration-300 hover:"
                     >
                     <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
@@ -80,7 +80,7 @@ const Footer = () => {
                     </svg>
                     </a>
                     <a
-                    href="https://www.facebook.com/mdrasel.sarker.7773631"
+                    href="/"
                     className="text-[#82CB15] transition-colors duration-300 hover:"
                     >
                     <svg viewBox="0 0 30 30" fill="currentColor" className="h-6">
@@ -89,7 +89,7 @@ const Footer = () => {
                     </svg>
                     </a>
                     <a
-                    href="https://www.facebook.com/mdrasel.sarker.7773631"
+                    href="/"
                     className="text-[#82CB15] transition-colors duration-300 hover:"
                     >
                     <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
