@@ -5,6 +5,7 @@ const Navbar = () => {
     const navOptions = <>
         <li className=""><Link to="/">Home</Link></li>
         <li><Link to="/contact">Contact us</Link></li>
+        <li><Link to="/faq">Faq</Link></li>
     </>
 
     return (
@@ -19,7 +20,7 @@ const Navbar = () => {
                             {navOptions}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl text-[#a8e847]">Hospital</a>
+                    <a className="btn btn-ghost normal-case text-xl text-[#a8e847]">Hospital-Dashboard</a>
                 </div>
                 <div className="navbar-center mx-auto hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

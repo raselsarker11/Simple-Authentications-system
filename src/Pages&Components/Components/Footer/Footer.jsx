@@ -33,23 +33,23 @@ const Footer = () => {
                 <div className="flex text-gray-900 font-semibold">
                     <p className="mr-1 ">Phone:</p>
                     <a
-                    href="tel:850-123-5021"
+                    href="tel:880 1332721933"
                     aria-label="Our phone"
                     title="Our phone"
                     className="transition-colors duration-300  "
                     >
-                    +1022-0033333
+                    +880 1332721933
                     </a>
                 </div>
                 <div className="flex text-gray-900 font-semibold">
                     <p className="mr-1 ">Email:</p>
                     <a
-                    href="mailto:info@lorem.mail"
+                    href="mailto:rasel.sarker6933@gmail.com"
                     aria-label="Our email"
                     title="Our email"
                     className="transition-colors duration-300  "
                     >
-                    info@lorem.mail
+                    rasel.sarker6933@gmail.com
                     </a>
                 </div>
                 <div className="flex text-gray-900 font-semibold">
@@ -62,7 +62,7 @@ const Footer = () => {
                     title="Our address"
                     className="transition-colors duration-300  "
                     >
-                    312 Lovely Street, NY
+                    1120 Gaibandha,Rangpur.
                     </a>
                 </div>
                 </div>
@@ -72,7 +72,7 @@ const Footer = () => {
                 </span>
                 <div className="flex items-center mt-1 space-x-3">
                     <a
-                    href="/"
+                    href="https://www.facebook.com/mdrasel.sarker.7773631"
                     className="text-[#82CB15] transition-colors duration-300 hover:"
                     >
                     <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
@@ -80,7 +80,7 @@ const Footer = () => {
                     </svg>
                     </a>
                     <a
-                    href="/"
+                    href="https://www.facebook.com/mdrasel.sarker.7773631"
                     className="text-[#82CB15] transition-colors duration-300 hover:"
                     >
                     <svg viewBox="0 0 30 30" fill="currentColor" className="h-6">
@@ -89,7 +89,7 @@ const Footer = () => {
                     </svg>
                     </a>
                     <a
-                    href="/"
+                    href="https://www.facebook.com/mdrasel.sarker.7773631"
                     className="text-[#82CB15] transition-colors duration-300 hover:"
                     >
                     <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">

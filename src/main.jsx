@@ -12,6 +12,8 @@ import Login from './Pages&Components/Pages/Login/Login';
 import SignUp from './Pages&Components/Pages/SignUp/SignUp';
 import DashBoardPatient from './Pages&Components/Pages/DashBoardPatient/DashBoardPatient';
 import DashBoardDoctor from './Pages&Components/Pages/DashBoardDoctor/DashBoardDoctor';
+import Contact from './Pages&Components/Pages/Contact/Contact';
+import Faq from './Pages&Components/Pages/Faq/Faq';
 
 
 const router = createBrowserRouter([
@@ -39,6 +41,14 @@ const router = createBrowserRouter([
           path: "/doctor",
           element: <DashBoardDoctor></DashBoardDoctor>
       },
+      {
+          path: "contact",
+          element: <Contact></Contact>
+      },
+      {
+          path: "faq",
+          element: <Faq></Faq>
+      }
     ]
   },
 ]);
